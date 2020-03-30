@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bottom Navigationbar</string>
+    <string name="setting_profile_name">اسم الاكونت</string>
+    <string name="setting_see_your_profile">رؤية الاكونت</string>
+    <string name="setting_language">اللغه</string>
+    <string name="setting_help">المساعده</string>
+    <string name="setting_switch_account">تغيير الحساب</string>
+    <string name="setting_size">الحجم</string>
+    <string name="setting_about">حول</string>
+    <string name="setting_log_out">تسجيل الخروج</string>
+    <string name="setting_change_password">تغيير الرقم السرى</string>
+</resources>
