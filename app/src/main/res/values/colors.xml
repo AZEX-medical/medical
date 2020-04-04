@@ -9,6 +9,7 @@
     <color name="red_light">#3FB6C5</color>
     <color name="logolight">#3FB6C5</color>
     <color name="logodark">#3C858E</color>
-
+    <color name="btn">#3EB6C6</color>
+    <color name="gray">#707075</color>
 
 </resources>
