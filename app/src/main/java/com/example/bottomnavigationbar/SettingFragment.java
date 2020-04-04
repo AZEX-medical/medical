@@ -15,6 +15,7 @@ import androidx.appcompat.app.AlertDialog;
 import androidx.fragment.app.Fragment;
 
 import java.util.Locale;
+import java.util.Objects;
 
 import static android.content.Context.MODE_PRIVATE;
 
@@ -54,7 +55,7 @@ public class SettingFragment extends Fragment {
 
         String[] listitem = {"English", "العربيه"};
 
-        AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
+        AlertDialog.Builder builder = new AlertDialog.Builder(Objects.requireNonNull(this.getActivity()));
         builder.setTitle("Choose Language....");
         builder.setSingleChoiceItems(listitem, -1, new DialogInterface.OnClickListener() {
             @Override
@@ -90,7 +91,8 @@ public class SettingFragment extends Fragment {
         getContext().getResources().updateConfiguration(config, getContext().getResources().getDisplayMetrics());
 
         // saved data to shared Preferences
-        SharedPreferences.Editor editor = getSharedPreferences("setting", MODE_PRIVATE).edit();
+        SharedPreferences.Editor editor =this.getActivity().getSharedPreferences("setting", MODE_PRIVATE).edit();
+
         editor.putString("My_Lang", lang);
         editor.apply();
 
@@ -98,7 +100,7 @@ public class SettingFragment extends Fragment {
     // load language saved in SharedPreferences
     public void loadLocale(){
 
-        SharedPreferences pref = getSharedPreferences("setting", MODE_PRIVATE);
+        SharedPreferences pref =this.getActivity().getSharedPreferences("setting", MODE_PRIVATE);
         String language = pref.getString("My_Lang", "");
         setLocal(language);
 

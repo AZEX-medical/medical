@@ -27,12 +27,18 @@ public class MainActivity extends AppCompatActivity {
         spaceNavigationView.addSpaceItem(new SpaceItem("", R.drawable.ic_settings_black_24dp));
         spaceNavigationView.setCentreButtonSelectable(true);
 
+
         getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
                 new HomeFragment()).commit();
 //        spaceNavigationView.setCentreButtonColor(ContextCompat.getColor(this, R.color.red_light));
+        navigation();
 
 
 
+
+    }
+
+    private void navigation() {
         spaceNavigationView.setSpaceOnClickListener(new SpaceOnClickListener() {
             @Override
             public void onCentreButtonClick() {
