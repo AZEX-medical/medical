@@ -1,11 +1,9 @@
 package com.example.bottomnavigationbar;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.content.ContextCompat;
 import androidx.fragment.app.Fragment;
 
 import android.os.Bundle;
-import android.widget.Toast;
 
 import com.luseen.spacenavigation.SpaceItem;
 import com.luseen.spacenavigation.SpaceNavigationView;
@@ -22,18 +20,17 @@ public class MainActivity extends AppCompatActivity {
         spaceNavigationView = findViewById(R.id.space);
         spaceNavigationView.initWithSaveInstanceState(savedInstanceState);
         spaceNavigationView.addSpaceItem(new SpaceItem("", R.drawable.ic_favorite_black_24dp));
-        spaceNavigationView.addSpaceItem(new SpaceItem("", R.drawable.ic_history_black_24dp));
+        spaceNavigationView.addSpaceItem(new SpaceItem("", R.drawable.ic_note_black_24dp));
         spaceNavigationView.addSpaceItem(new SpaceItem("", R.drawable.ic_add_black_24dp));
         spaceNavigationView.addSpaceItem(new SpaceItem("", R.drawable.ic_settings_black_24dp));
         spaceNavigationView.setCentreButtonSelectable(true);
 
 //        spaceNavigationView.setCentreButtonColor(ContextCompat.getColor(this, R.color.red_light));
         changeNavigationOption();
-
-
-
-
     }
+
+
+
 
     private void changeNavigationOption() {
         //homeFragment is the default
@@ -58,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
                         selectedFragment = new FavoriteFragment();
                         break;
                     case 1:
-                        selectedFragment = new HistoryFragment();
+                        selectedFragment = new NoteFragment();
                         break;
                     case 2:
                         selectedFragment = new AddFragment();
@@ -82,7 +79,7 @@ public class MainActivity extends AppCompatActivity {
                         selectedFragment = new FavoriteFragment();
                         break;
                     case 1:
-                        selectedFragment = new HistoryFragment();
+                        selectedFragment = new NoteFragment();
                         break;
                     case 2:
                         selectedFragment = new SettingFragment();
