@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Bottom Navigationbar</string>
+    <string name="app_name">Medical File</string>
     <string name="setting_language">Language</string>
     <string name="setting_help">Help</string>
     <string name="setting_switch_account">Switch Account</string>

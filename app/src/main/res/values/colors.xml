@@ -6,7 +6,9 @@
     <color name="white">#FFFFFF</color>
     <color name="black">#000000</color>
     <color name="blue_light">#C0E5F5</color>
-    <color name="red_light"> #FC0000</color>
+    <color name="red_light">#3FB6C5</color>
+    <color name="logolight">#3FB6C5</color>
+    <color name="logodark">#3C858E</color>
 
 
 </resources>

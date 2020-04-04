@@ -21,7 +21,7 @@ import static android.content.Context.MODE_PRIVATE;
 
 public class SettingFragment extends Fragment {
 
-    TextView set_lang, set_help, set_switch, set_chang_pass, set_size, set_about, set_logout;
+    private TextView  set_lang, set_help, set_switch, set_chang_pass, set_size, set_about, set_logout;
 
     @Nullable
     @Override
@@ -64,13 +64,13 @@ public class SettingFragment extends Fragment {
                 if(i == 0){
                     // english
                     setLocal("en");
-                    recreate();
+                  //  recreate();
                 }
 
                 else if(i == 1){
                     // arabic
                     setLocal("ar");
-                    recreate();
+                   // recreate();
                 }
 
                 dialogInterface.dismiss();
@@ -98,7 +98,7 @@ public class SettingFragment extends Fragment {
 
     }
     // load language saved in SharedPreferences
-    public void loadLocale(){
+    private void loadLocale(){
 
         SharedPreferences pref =this.getActivity().getSharedPreferences("setting", MODE_PRIVATE);
         String language = pref.getString("My_Lang", "");
