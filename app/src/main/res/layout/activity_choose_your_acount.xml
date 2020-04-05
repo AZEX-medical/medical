@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".chooseYourAcount"
+    >
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:src="@drawable/logo"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        />
+    <TextView
+        android:layout_below="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:text="log as"
+        android:textSize="40sp"
+        android:textColor="#F28A62"
+        android:layout_centerHorizontal="true"
+         />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardDoctor"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_centerVertical="true"
+        >
+        <ImageView
+            android:id="@+id/img_doctor"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:src="@drawable/doctor"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="Doctor"
+            android:textSize="30sp"
+            android:textColor="#F28A62"
+            android:layout_gravity="bottom"
+            android:gravity="center"
+            android:layout_marginBottom="6dp"
+            />
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardPatient"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_margin="10dp"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/cardDoctor"
+        >
+        <ImageView
+            android:id="@+id/img_pateint"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/pateint"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="Pateint"
+            android:textSize="30sp"
+            android:textColor="#F28A62"
+            android:layout_gravity="bottom"
+            android:gravity="center"
+            android:layout_marginBottom="6dp"
+            />
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

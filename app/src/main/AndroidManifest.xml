@@ -12,6 +12,10 @@
         <activity android:name=".sign"></activity>
         <activity android:name=".register" />
         <activity android:name=".start" />
+        <activity android:name=".chooseYourAcount" />
+        <activity android:name=".SplashScreen">
+
+        </activity>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
