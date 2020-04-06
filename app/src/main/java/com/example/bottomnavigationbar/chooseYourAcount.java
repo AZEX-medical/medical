@@ -24,7 +24,7 @@ public class chooseYourAcount extends AppCompatActivity {
             public void onClick(View v) {
                 Intent Intent = new Intent(chooseYourAcount.this, start.class);
                 startActivity(Intent);
-                finish();// عشان تختفي الصفحة
+                //finish();// عشان تختفي الصفحة
             }
         });
 
@@ -33,7 +33,7 @@ public class chooseYourAcount extends AppCompatActivity {
             public void onClick(View v) {
                 Intent Intent = new Intent(chooseYourAcount.this, start.class);
                 startActivity(Intent);
-                finish();// عشان تختفي الصفحة
+                //finish();// عشان تختفي الصفحة
             }
         });
     }
