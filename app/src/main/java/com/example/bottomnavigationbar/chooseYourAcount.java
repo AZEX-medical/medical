@@ -34,6 +34,7 @@ public class chooseYourAcount extends AppCompatActivity {
                 Intent Intent = new Intent(chooseYourAcount.this, start.class);
                 startActivity(Intent);
                 //finish();// عشان تختفي الصفحة
+
             }
         });
     }
