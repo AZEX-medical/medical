@@ -5,23 +5,26 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.os.Bundle;
+import android.widget.Button;
 
 import com.balysv.materialripple.MaterialRippleLayout;
 
 public class start extends AppCompatActivity {
-    MaterialRippleLayout reg,sign ;
+  //  MaterialRippleLayout reg,sign ;
+  Button regi,sign ;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_start);
-        reg=findViewById(R.id.btn1);
-        sign=findViewById(R.id.btn2);
-        reg.setOnClickListener(new View.OnClickListener() {
+        regi=findViewById(R.id.reg);
+        sign=findViewById(R.id.sign);
+        regi.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent;
-                intent = new Intent(getApplicationContext(),register.class);
+                intent = new Intent(start.this,register.class);
                 startActivity(intent);
             }
 
@@ -30,7 +33,7 @@ public class start extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent;
-                intent = new Intent(getApplicationContext(),sign.class);
+                intent = new Intent(start.this,sign.class);
                 startActivity(intent);
             }
 

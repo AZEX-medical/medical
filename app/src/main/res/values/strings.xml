@@ -9,4 +9,11 @@
     <string name="setting_profile_name">Profile name</string>
     <string name="setting_see_your_profile">see your profile</string>
     <string name="setting_change_password">Change Password</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="past_diseases">Past Diseases</string>
+    <string name="my_midecal_files">My midecal Files</string>
+    <string name="pastexamination">Past Examination</string>
+    <string name="surgeries">Surgeries</string>
+    <string name="my_drugs">My Drugs</string>
 </resources>

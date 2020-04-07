@@ -22,7 +22,8 @@
         android:layout_marginBottom="15dp"
         android:text="log as"
         android:textSize="40sp"
-        android:textColor="#F28A62"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
         android:layout_centerHorizontal="true"
          />
 
@@ -45,7 +46,7 @@
             android:layout_height="35dp"
             android:text="Doctor"
             android:textSize="30sp"
-            android:textColor="#F28A62"
+            android:textColor="@color/colorPrimaryDark"
             android:layout_gravity="bottom"
             android:gravity="center"
             android:layout_marginBottom="6dp"
@@ -73,7 +74,7 @@
             android:layout_height="35dp"
             android:text="Pateint"
             android:textSize="30sp"
-            android:textColor="#F28A62"
+            android:textColor="@color/colorPrimaryDark"
             android:layout_gravity="bottom"
             android:gravity="center"
             android:layout_marginBottom="6dp"

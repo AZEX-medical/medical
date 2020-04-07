@@ -10,4 +10,8 @@
     <string name="setting_about">حول</string>
     <string name="setting_log_out">تسجيل الخروج</string>
     <string name="setting_change_password">تغيير الرقم السرى</string>
+    <string name="my_drugs">أدويتى</string>
+    <string name="my_midecal_files">تقاريرى السابقه</string>
+    <string name="past_diseases">أمراضي السابقه</string>
+    <string name="pastexamination">العمليات الجراحيه السابقه</string>
 </resources>

@@ -30,12 +30,13 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:id="@+id/reg"
                 android:text="register"
                 android:textAllCaps="false"
                 android:textStyle="bold"
                 android:textSize="20sp"
                 android:textColor="@color/white"
-                android:background="@color/btn"
+                android:background="@color/colorPrimary"
                 />
         </com.balysv.materialripple.MaterialRippleLayout>
     </androidx.cardview.widget.CardView>
@@ -56,6 +57,7 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:id="@+id/sign"
                 android:text="sign in"
                 android:textAllCaps="false"
                 android:textStyle="bold"
@@ -64,12 +66,6 @@
                 android:background="@drawable/background"/>
         </com.balysv.materialripple.MaterialRippleLayout>
 
-
-
-
     </androidx.cardview.widget.CardView>
-
-
-
 
 </LinearLayout>
