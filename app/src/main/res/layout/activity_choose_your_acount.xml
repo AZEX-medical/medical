@@ -16,6 +16,7 @@
         android:layout_centerHorizontal="true"
         />
     <TextView
+        android:id="@+id/text"
         android:layout_below="@+id/logo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -26,45 +27,51 @@
         android:textColor="@color/colorPrimaryDark"
         android:layout_centerHorizontal="true"
          />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text"
+        android:layout_centerInParent="true"
+        android:orientation="horizontal"
 
-    <androidx.cardview.widget.CardView
-        android:id="@+id/cardDoctor"
-        android:layout_width="180dp"
-        android:layout_height="180dp"
-        android:layout_marginRight="10dp"
-        android:layout_marginLeft="15dp"
-        android:layout_centerVertical="true"
         >
-        <ImageView
-            android:id="@+id/img_doctor"
-            android:layout_width="match_parent"
-            android:layout_height="130dp"
-            android:src="@drawable/doctor"
-            />
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="35dp"
-            android:text="Doctor"
-            android:textSize="30sp"
-            android:textColor="@color/colorPrimaryDark"
-            android:layout_gravity="bottom"
-            android:gravity="center"
-            android:layout_marginBottom="6dp"
-            />
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardDoctor"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="15dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="6dp"
+            >
+            <ImageView
+                android:id="@+id/img_doctor"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:src="@drawable/doctor"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:text="Doctor"
+                android:textSize="30sp"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_gravity="bottom"
+                android:gravity="center"
+                android:layout_marginBottom="6dp"
+                />
+        </androidx.cardview.widget.CardView>
 
-
-    </androidx.cardview.widget.CardView>
-
-    <androidx.cardview.widget.CardView
+        <androidx.cardview.widget.CardView
         android:id="@+id/cardPatient"
         android:layout_width="180dp"
         android:layout_height="180dp"
-        android:layout_margin="10dp"
-        android:layout_centerVertical="true"
-        android:layout_toRightOf="@+id/cardDoctor"
-        >
+        android:layout_marginLeft="10dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="6dp"
+            >
         <ImageView
-            android:id="@+id/img_pateint"
+            android:id="@+id/img_patient"
             android:layout_width="match_parent"
             android:layout_height="150dp"
             android:src="@drawable/pateint"
@@ -72,13 +79,13 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="35dp"
-            android:text="Pateint"
+            android:text="Patient"
             android:textSize="30sp"
             android:textColor="@color/colorPrimaryDark"
             android:layout_gravity="bottom"
             android:gravity="center"
             android:layout_marginBottom="6dp"
             />
-    </androidx.cardview.widget.CardView>
-
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
 </RelativeLayout>
