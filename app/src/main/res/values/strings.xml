@@ -14,6 +14,24 @@
     <string name="past_diseases">Past Diseases</string>
     <string name="my_midecal_files">My midecal Files</string>
     <string name="pastexamination">Past Examination</string>
-    <string name="surgeries">Surgeries</string>
     <string name="my_drugs">My Drugs</string>
+    <string name="surgeries">Surgeries</string>
+    <string name="doctor">Doctor</string>
+    <string name="patient">Patient</string>
+    <string name="register">register</string>
+    <string name="create_account">Create your account until you get your health care .</string>
+    <string name="name">name :</string>
+    <string name="e_mail">E-mail :</string>
+    <string name="password">password :</string>
+    <string name="confirm_password">confirm password :</string>
+    <string name="get_start">get start</string>
+    <string name="sign_in">sign in</string>
+    <string name="sign_in_to_get_your_health_care">sign in to get your health care .</string>
+    <string name="user_name">user name :</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="examination_rays">Rays</string>
+    <string name="examination_analyze">Analyze</string>
+    <string name="examination_specula">Specula</string>
+
 </resources>

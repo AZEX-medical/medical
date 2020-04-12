@@ -43,7 +43,7 @@
             android:shadowDx="2"
             android:shadowDy="2"
             android:shadowRadius="12"
-            android:text="sign in"
+            android:text="@string/sign_in"
             android:textAllCaps="false"
             android:textColor="@color/white"
             android:textSize="26sp"
@@ -54,7 +54,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
             android:layout_marginTop="20dp"
-            android:text="sign in to get your health care ."
+            android:text="@string/sign_in_to_get_your_health_care"
             android:textAllCaps="false"
             android:textColor="@color/white"
             android:textSize="19sp"
@@ -90,7 +90,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
-                    android:text="user name :"
+                    android:text="@string/user_name"
                     android:textColor="@color/colorPrimary"
                     android:textSize="16sp"
                     android:textStyle="bold" />
@@ -98,15 +98,13 @@
                 <EditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginBottom="5dp"
-
-                    />
+                    android:layout_marginBottom="5dp" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
-                    android:text="password :"
+                    android:text="@string/password"
                     android:textColor="@color/colorPrimary"
                     android:textSize="16sp"
                     android:textStyle="bold" />
@@ -140,7 +138,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:background="@color/colorPrimary"
-                                android:text="sign in "
+                                android:text="@string/sign_in"
                                 android:textColor="@color/white"
                                 android:textStyle="bold"
 

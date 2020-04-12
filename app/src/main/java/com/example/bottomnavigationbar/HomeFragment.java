@@ -1,19 +1,17 @@
 package com.example.bottomnavigationbar;
 
-import android.annotation.SuppressLint;
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.cardview.widget.CardView;
 import androidx.fragment.app.Fragment;
-import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
+
+import com.example.bottomnavigationbar.examination.ExaminationFragment;
 
 public class HomeFragment extends Fragment {
     CardView card_file ,card_disease,card_examin,card_sur,card_drug;

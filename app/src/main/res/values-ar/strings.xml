@@ -10,8 +10,27 @@
     <string name="setting_about">حول</string>
     <string name="setting_log_out">تسجيل الخروج</string>
     <string name="setting_change_password">تغيير الرقم السرى</string>
+
     <string name="my_drugs">أدويتى</string>
     <string name="my_midecal_files">تقاريرى السابقه</string>
     <string name="past_diseases">أمراضي السابقه</string>
     <string name="pastexamination">العمليات الجراحيه السابقه</string>
+
+    <string name="surgeries">Surgeries</string>
+    <string name="doctor">الدكتور</string>
+    <string name="patient">المريض</string>
+    <string name="register">تسجيل الدخول</string>
+    <string name="create_account">Create your account until you get your health care .</string>
+    <string name="name">الاسم :</string>
+    <string name="e_mail">الايميل :</string>
+    <string name="password">الرقم السرى :</string>
+    <string name="confirm_password">تأكيد لرقم السرى :</string>
+    <string name="get_start">ابدأ الان</string>
+    <string name="sign_in">دخول</string>
+    <string name="sign_in_to_get_your_health_care">sign in to get your health care .</string>
+    <string name="user_name">اسم المستخدم :</string>
+
+    <string name="examination_rays">أشعه</string>
+    <string name="examination_analyze">تحليل</string>
+    <string name="examination_specula">مناظير</string>
 </resources>

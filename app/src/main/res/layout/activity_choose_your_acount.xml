@@ -55,7 +55,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="35dp"
-                android:text="Doctor"
+                android:text="@string/doctor"
                 android:textSize="30sp"
                 android:textColor="@color/colorPrimaryDark"
                 android:layout_gravity="bottom"
@@ -81,7 +81,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="35dp"
-            android:text="Patient"
+            android:text="@string/patient"
             android:textSize="30sp"
             android:textColor="@color/colorPrimaryDark"
             android:layout_gravity="bottom"
