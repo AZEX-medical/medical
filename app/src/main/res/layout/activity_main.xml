@@ -17,18 +17,17 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        app:background="@color/colorPrimaryDark"
         android:layout_gravity="bottom"
-        app:active_item_color="@color/colorPrimary"
-        app:centre_button_color="@color/colorPrimaryDark"
-        app:inactive_item_color="@color/black"
-        app:space_background_color="@color/white"
+        app:active_item_color="@color/colorPrimaryDark"
+        app:inactive_item_color="@color/white"
+        app:centre_button_color="@color/white"
+        app:space_background_color="@color/colorPrimary"
         app:centre_button_icon="@drawable/ic_home_black_24dp"
-        app:inactive_centre_button_icon_color="@color/white"
-        app:active_centre_button_background_color="@color/colorPrimary"
+        app:inactive_centre_button_icon_color="@color/colorPrimary"
+        app:active_centre_button_icon_color="@color/colorPrimary"
+        app:active_centre_button_background_color="@color/colorPrimaryDark"
         app:space_item_icon_size="30dp"
         app:space_item_icon_only_size="@dimen/space_item_icon_only_size"
         app:space_item_text_size="@dimen/space_item_text_default_size" />
-
 
 </RelativeLayout>
