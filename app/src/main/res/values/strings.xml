@@ -34,4 +34,8 @@
     <string name="examination_analyze">Analyze</string>
     <string name="examination_specula">Specula</string>
 
+    <string name="Temporary_Drugs">Temporary Drugs</string>
+    <string name="Choronic_Drug">Choronic Drug</string>
+
+
 </resources>

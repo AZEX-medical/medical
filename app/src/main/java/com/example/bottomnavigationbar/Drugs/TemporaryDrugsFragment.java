@@ -1,4 +1,4 @@
-package com.example.bottomnavigationbar;
+package com.example.bottomnavigationbar.Drugs;
 
 
 import android.os.Bundle;
@@ -10,16 +10,18 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
+import com.example.bottomnavigationbar.R;
 
 
+public class TemporaryDrugsFragment extends Fragment {
+    public TemporaryDrugsFragment() {
+    }
 
-public class DrugFragment extends Fragment {
-    @Nullable
-    @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
 
-        View view= inflater.inflate(R.layout.fragment_drug,container,false);
-        return  view;
+        View view = inflater.inflate(R.layout.fragment_temporary, container, false);
+
+        return view;
     }
 
 }
