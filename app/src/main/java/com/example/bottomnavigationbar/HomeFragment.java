@@ -11,6 +11,7 @@ import androidx.cardview.widget.CardView;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
 
+import com.example.bottomnavigationbar.Diseases.DiseaseFragment;
 import com.example.bottomnavigationbar.Drugs.DrugFragment;
 import com.example.bottomnavigationbar.examination.ExaminationFragment;
 

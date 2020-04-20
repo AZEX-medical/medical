@@ -37,5 +37,8 @@
     <string name="Temporary_Drugs">Temporary Drugs</string>
     <string name="Choronic_Drug">Choronic Drug</string>
 
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="previous_diseases">Previous diseases</string>
+
 
 </resources>

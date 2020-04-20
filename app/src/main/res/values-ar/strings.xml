@@ -35,5 +35,6 @@
     <string name="examination_specula">مناظير</string>
     <string name="Temporary_Drugs">أدويه مؤقته</string>
     <string name="Choronic_Drug">أدويه مؤقته</string>
+    <string name="previous_diseases">امراض سابقه</string>
 
 </resources>

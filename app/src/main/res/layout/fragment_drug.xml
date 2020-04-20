@@ -19,6 +19,7 @@
         android:id="@+id/viewPager"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@+id/examination_tab" />
+        android:background="@color/white"
+        android:layout_below="@+id/drug_tab" />
 
 </RelativeLayout>
