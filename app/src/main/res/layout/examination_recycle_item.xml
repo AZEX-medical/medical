@@ -18,7 +18,7 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/specula_type"
+                android:id="@+id/exam_type"
                 android:layout_width="match_parent"
                 android:textSize="36sp"
                 android:layout_marginLeft="10dp"
@@ -26,7 +26,7 @@
                 android:layout_height="50dp" />
 
             <TextView
-                android:id="@+id/specula_date"
+                android:id="@+id/exam_date"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textSize="20sp"
@@ -41,16 +41,13 @@
                 android:layout_margin="8dp"/>
 
             <ImageView
-                android:id="@+id/specula_image"
+                android:id="@+id/exam_image"
                 android:layout_width="match_parent"
-                android:layout_height="200dp"
+                android:layout_height="250dp"
                 android:scaleType="centerCrop"
                 android:layout_margin="8dp"/>
 
         </LinearLayout>
-
-
-
 
     </androidx.cardview.widget.CardView>
 

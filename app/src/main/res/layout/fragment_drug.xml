@@ -13,7 +13,7 @@
         android:background="?attr/colorPrimary"
         app:tabSelectedTextColor="@android:color/white"
         app:tabGravity="fill"
-        app:tabMode="fixed"/>
+        app:tabMode="fixed" />
 
     <androidx.viewpager.widget.ViewPager
         android:id="@+id/viewPager"

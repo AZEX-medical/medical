@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">الملف الطبي</string>
+    <string name="app_name">Bottom Navigationbar</string>
     <string name="setting_profile_name">اسم الاكونت</string>
     <string name="setting_see_your_profile">رؤية الاكونت</string>
     <string name="setting_language">اللغه</string>
@@ -17,7 +17,7 @@
     <string name="pastexamination">العمليات الجراحيه السابقه</string>
 
     <string name="surgeries">Surgeries</string>
-    <string name="doctor">الطبيب</string>
+    <string name="doctor">الدكتور</string>
     <string name="patient">المريض</string>
     <string name="register">تسجيل الدخول</string>
     <string name="create_account">Create your account until you get your health care .</string>
@@ -33,8 +33,12 @@
     <string name="examination_rays">أشعه</string>
     <string name="examination_analyze">تحليل</string>
     <string name="examination_specula">مناظير</string>
-    <string name="Temporary_Drugs">أدويه مؤقته</string>
-    <string name="Choronic_Drug">أدويه مؤقته</string>
-    <string name="previous_diseases">امراض سابقه</string>
+
+    <string name="Temporary_Drugs">الأدويه المؤقته</string>
+    <string name="Choronic_Drug">الأدويه المزمنه</string>
+
+    <string name="save">خفظ</string>
+    <string name="please_enter_analyze_date">أدخل تاريخ التحليل</string>
+    <string name="please_enter_analyze_type">أدخل نوع التحليل</string>
 
 </resources>

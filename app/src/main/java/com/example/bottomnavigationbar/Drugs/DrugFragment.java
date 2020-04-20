@@ -31,9 +31,7 @@ public class DrugFragment extends Fragment {
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
 
-        View view= inflater.inflate(R.layout.fragment_drug,container,false);
-
-
+        View view = inflater.inflate(R.layout.fragment_drug, container, false);
 
         tabLayout = (TabLayout) view.findViewById(R.id.drug_tab);
         viewPager = (ViewPager) view.findViewById(R.id.viewPager);
@@ -47,7 +45,7 @@ public class DrugFragment extends Fragment {
 
         tabLayout.setupWithViewPager(viewPager);
 
-        return  view;
+        return view;
     }
 
 }
