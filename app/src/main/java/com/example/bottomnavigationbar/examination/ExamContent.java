@@ -1,11 +1,11 @@
 package com.example.bottomnavigationbar.examination;
 
-public class Content {
+public class ExamContent {
 
     private String exam_type, exam_date;
     private int exam_image;
 
-    public Content(String exam_type, String exam_date, int exam_image) {
+    public ExamContent(String exam_type, String exam_date, int exam_image) {
         this.exam_type = exam_type;
         this.exam_date = exam_date;
         this.exam_image = exam_image;

@@ -15,9 +15,9 @@ import java.util.ArrayList;
 
 public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.RecyclerHolder> {
 
-    ArrayList<Content> contents;
+    ArrayList<ExamContent> contents;
 
-    public RecyclerAdapter(ArrayList<Content> contents) {
+    public RecyclerAdapter(ArrayList<ExamContent> contents) {
         this.contents = contents;
     }
 
@@ -33,7 +33,7 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.Recycl
     @Override
     public void onBindViewHolder(@NonNull RecyclerHolder holder, int position) {
 
-        final Content content = contents.get(position);
+        final ExamContent content = contents.get(position);
         holder.type.setText(content.getExam_type());
         holder.date.setText(content.getExam_date());
         holder.image.setImageResource(content.getExam_image());
@@ -52,9 +52,9 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.Recycl
         public RecyclerHolder(@NonNull View itemView) {
             super(itemView);
 
-            type = itemView.findViewById(R.id.specula_type);
-            date = itemView.findViewById(R.id.specula_date);
-            image = itemView.findViewById(R.id.specula_image);
+            type = itemView.findViewById(R.id.exam_type);
+            date = itemView.findViewById(R.id.exam_date);
+            image = itemView.findViewById(R.id.exam_image);
         }
     }
 }

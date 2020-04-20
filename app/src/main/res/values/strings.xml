@@ -36,6 +36,9 @@
 
     <string name="Temporary_Drugs">Temporary Drugs</string>
     <string name="Choronic_Drug">Choronic Drug</string>
+    <string name="save">save</string>
+    <string name="please_enter_analyze_date">please enter analyze date</string>
+    <string name="please_enter_analyze_type">please enter analyze type</string>
 
 
 </resources>
