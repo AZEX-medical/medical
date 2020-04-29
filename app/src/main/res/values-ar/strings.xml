@@ -41,4 +41,6 @@
     <string name="please_enter_analyze_date">أدخل تاريخ التحليل</string>
     <string name="please_enter_analyze_type">أدخل نوع التحليل</string>
 
+    <string name="previous_diseases">الأمراض السابقه</string>
+
 </resources>
