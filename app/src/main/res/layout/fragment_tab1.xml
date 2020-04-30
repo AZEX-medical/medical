@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Diseases.tab1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@drawable/checkbox"
+            android:padding="5dp"
+            android:text="Pressure "
+            android:textSize="30sp"
+            android:layout_margin="20dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold"
+            />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@drawable/checkbox"
+            android:padding="5dp"
+            android:text="Diabetes "
+            android:textSize="30sp"
+            android:layout_margin="20dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold"
+            />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@drawable/checkbox"
+            android:padding="5dp"
+            android:text="Kidney  "
+            android:textSize="30sp"
+            android:layout_margin="20dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold"
+            />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@drawable/checkbox"
+            android:padding="5dp"
+            android:text="bitterness  "
+            android:textSize="30sp"
+            android:layout_margin="20dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold"
+            />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@drawable/checkbox"
+            android:padding="5dp"
+            android:text="Tuberculosis  "
+            android:textSize="30sp"
+            android:layout_margin="20dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

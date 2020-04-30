@@ -33,4 +33,14 @@
     <string name="examination_rays">أشعه</string>
     <string name="examination_analyze">تحليل</string>
     <string name="examination_specula">مناظير</string>
+
+    <string name="Temporary_Drugs">الأدويه المؤقته</string>
+    <string name="Choronic_Drug">الأدويه المزمنه</string>
+
+    <string name="save">حفظ</string>
+    <string name="please_enter_analyze_date">أدخل تاريخ التحليل</string>
+    <string name="please_enter_analyze_type">أدخل نوع التحليل</string>
+
+    <string name="previous_diseases">الأمراض السابقه</string>
+
 </resources>

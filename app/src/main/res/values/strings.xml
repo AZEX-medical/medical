@@ -34,4 +34,14 @@
     <string name="examination_analyze">Analyze</string>
     <string name="examination_specula">Specula</string>
 
+    <string name="Temporary_Drugs">Temporary Drugs</string>
+    <string name="Choronic_Drug">Choronic Drug</string>
+    <string name="save">save</string>
+    <string name="please_enter_analyze_date">please enter analyze date</string>
+    <string name="please_enter_analyze_type">please enter analyze type</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="previous_diseases">Previous diseases</string>
+
+
 </resources>

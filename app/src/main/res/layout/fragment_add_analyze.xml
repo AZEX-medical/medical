@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp"
+    tools:context=".examination.AddAnalyzeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <EditText
+        android:id="@+id/anlyze_type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="@string/please_enter_analyze_type"
+        android:inputType="textPersonName"
+        android:padding="8dp" />
+
+    <EditText
+        android:id="@+id/analyze_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="@string/please_enter_analyze_date"
+        android:inputType="textPersonName" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp">
+
+        <ImageView
+            android:id="@+id/analyze_image"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/background" />
+
+        <ImageView
+            android:id="@+id/analyze_camera"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="8dp"
+            android:src="@drawable/ic_photo_camera" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/analyze_save"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="@string/save"
+        android:layout_margin="10dp"
+        android:background="@drawable/background"
+        android:textAllCaps="false"
+        android:textSize="30sp"
+        android:layout_gravity="center"/>
+
+
+</LinearLayout>

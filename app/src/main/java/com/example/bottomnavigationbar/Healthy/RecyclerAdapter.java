@@ -1,4 +1,4 @@
-package com.example.bottomnavigationbar.examination;
+package com.example.bottomnavigationbar.Healthy;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -10,6 +10,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.bottomnavigationbar.R;
+import com.example.bottomnavigationbar.examination.ExamContent;
 
 import java.util.ArrayList;
 
@@ -20,6 +21,7 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.Recycl
     public RecyclerAdapter(ArrayList<ExamContent> contents) {
         this.contents = contents;
     }
+
 
     @NonNull
     @Override
@@ -33,11 +35,8 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.Recycl
     @Override
     public void onBindViewHolder(@NonNull RecyclerHolder holder, int position) {
 
-        final ExamContent content = contents.get(position);
-        holder.type.setText(content.getExam_type());
-        holder.date.setText(content.getExam_date());
-        holder.image.setImageResource(content.getExam_image());
     }
+
 
     @Override
     public int getItemCount() {
@@ -46,15 +45,8 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.Recycl
 
     class RecyclerHolder extends RecyclerView.ViewHolder{
 
-        TextView type, date;
-        ImageView image;
-
         public RecyclerHolder(@NonNull View itemView) {
             super(itemView);
-
-            type = itemView.findViewById(R.id.exam_type);
-            date = itemView.findViewById(R.id.exam_date);
-            image = itemView.findViewById(R.id.exam_image);
         }
     }
 }
