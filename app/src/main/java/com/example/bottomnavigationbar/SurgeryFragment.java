@@ -34,15 +34,6 @@ public class SurgeryFragment extends Fragment{
 
         recyclerView = view.findViewById(R.id.recycler);
 
-        ArrayList<sheetSurgery> sheetSurgeries = new ArrayList<>();
-        sheetSurgeries.add(new sheetSurgery
-                ("date 1", "Mohammed", "باطنة"));
-        sheetSurgeries.add(new sheetSurgery
-                ("date 2", "Emam", "جراحة"));
-        sheetSurgeries.add(new sheetSurgery
-                ("date 3", "Eman", "باطنة"));
-        sheetSurgeries.add(new sheetSurgery
-                ("date 4", "Hamza", "جراحة"));
         RecyclerViewAdapterSurgery adapterSurgery = new RecyclerViewAdapterSurgery(sheetSurgeries);
         RecyclerView.LayoutManager lm = new LinearLayoutManager(getContext());
         recyclerView.setHasFixedSize(true);
