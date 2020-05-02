@@ -34,8 +34,8 @@ public class HealthRecyclerAdapter extends RecyclerView.Adapter<HealthRecyclerAd
     @Override
     public void onBindViewHolder(@NonNull HealthRecyclerHolder holder, int position) {
 
-         Health h = health.get(position);
-         holder.tittle.setText(h.getTittle());
+        Health h = health.get(position);
+        holder.tittle.setText(h.getTittle());
     }
 
 
@@ -45,7 +45,7 @@ public class HealthRecyclerAdapter extends RecyclerView.Adapter<HealthRecyclerAd
     }
 
 
-    class HealthRecyclerHolder extends RecyclerView.ViewHolder{
+    class HealthRecyclerHolder extends RecyclerView.ViewHolder {
 
         TextView tittle;
 

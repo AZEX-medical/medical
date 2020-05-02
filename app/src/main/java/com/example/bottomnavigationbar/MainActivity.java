@@ -5,7 +5,7 @@ import androidx.fragment.app.Fragment;
 
 import android.os.Bundle;
 
-import com.example.bottomnavigationbar.Healthy.HealthyFragment;
+import com.example.bottomnavigationbar.Healthy.HealthFragment;
 import com.luseen.spacenavigation.SpaceItem;
 import com.luseen.spacenavigation.SpaceNavigationView;
 import com.luseen.spacenavigation.SpaceOnClickListener;
@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
                 Fragment selectedFragment = null;
                 switch (itemIndex) {
                     case 0:
-                        selectedFragment = new HealthyFragment();
+                        selectedFragment = new HealthFragment();
                         break;
                     case 1:
                         selectedFragment = new NoteFragment();
@@ -77,7 +77,7 @@ public class MainActivity extends AppCompatActivity {
                 Fragment selectedFragment = null;
                 switch (itemIndex) {
                     case 0:
-                        selectedFragment = new HealthyFragment();
+                        selectedFragment = new HealthFragment();
                         break;
                     case 1:
                         selectedFragment = new NoteFragment();
