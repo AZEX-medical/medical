@@ -10,7 +10,8 @@
         android:id="@+id/healthy_recycle"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_margin="8dp"/>
+        android:layout_margin="8dp"
+        android:layout_marginBottom="55dp"/>
 
     <TextView
         android:id="@+id/heath_error_text"

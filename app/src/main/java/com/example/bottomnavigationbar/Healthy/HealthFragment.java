@@ -69,10 +69,8 @@ public class HealthFragment extends Fragment {
             public void onFailure(Call<Health> call, Throwable t) {
 
                 errorMessage.setText(t.getMessage());
-
             }
         });
-
         return v;
     }
 }

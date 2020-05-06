@@ -20,9 +20,9 @@ public class MainActivity extends AppCompatActivity {
 
         spaceNavigationView = findViewById(R.id.space);
         spaceNavigationView.initWithSaveInstanceState(savedInstanceState);
-        spaceNavigationView.addSpaceItem(new SpaceItem("", R.drawable.ic_favorite_black_24dp));
+        spaceNavigationView.addSpaceItem(new SpaceItem("", R.drawable.ic_info_black_24dp));
         spaceNavigationView.addSpaceItem(new SpaceItem("", R.drawable.ic_note_black_24dp));
-        spaceNavigationView.addSpaceItem(new SpaceItem("", R.drawable.ic_add_black_24dp));
+        spaceNavigationView.addSpaceItem(new SpaceItem("", R.drawable.ic_local_hospital_black_24dp));
         spaceNavigationView.addSpaceItem(new SpaceItem("", R.drawable.ic_settings_black_24dp));
         spaceNavigationView.setCentreButtonSelectable(true);
 

@@ -27,7 +27,8 @@
 
     <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:layout_marginBottom="50dp">
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -61,6 +62,7 @@
                         android:layout_marginTop="10dp"
                         android:padding="10dp"
                         android:text="@string/setting_profile_name"
+                        android:textColor="@color/white"
                         android:textSize="24sp" />
 
                     <TextView
@@ -70,11 +72,10 @@
                         android:layout_below="@id/tv_pName"
                         android:padding="10dp"
                         android:text="@string/setting_see_your_profile"
+                        android:textColor="@color/white"
                         android:textSize="20sp" />
 
                 </RelativeLayout>
-
-
             </LinearLayout>
 
             <androidx.cardview.widget.CardView

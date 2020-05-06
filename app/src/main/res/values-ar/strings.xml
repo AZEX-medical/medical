@@ -42,5 +42,22 @@
     <string name="please_enter_analyze_type">أدخل نوع التحليل</string>
 
     <string name="previous_diseases">الأمراض السابقه</string>
+    <string name="name_of_doctor">name of the doctor</string>
+    <string name="specialization">specialization</string>
+    <string name="symptoms">symptoms</string>
+    <string name="examination">examination</string>
+    <string name="diagnosis">diagnosis</string>
+    <string name="required_examinations">Required Examinations</string>
+    <string name="Treatment">Treatment</string>
+    <string name="pressure">Pressure</string>
+    <string name="diabetes">Diabetes</string>
+    <string name="kidney">Kidney</string>
+    <string name="bitterness">bitterness</string>
+    <string name="tuberculosis">Tuberculosis</string>
+    <string name="temporary_drug">Temporary Drug</string>
+    <string name="Drug_name">Drug name</string>
+    <string name="duration">duration</string>
+    <string name="Dose">Dose</string>
+    <string name="Starting_date">Starting date</string>
 
 </resources>
